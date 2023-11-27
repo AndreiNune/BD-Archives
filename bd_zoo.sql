@@ -23,6 +23,8 @@ foreign key (cod_cargo) references cargo,
 create table veterinario
 (
 cod_func int NOT NULL,
+nome varchar (120) NOT NULL,
+dt_nasc date NOT NULL,
 CRMV varchar (13) NOT NULL,
 cod_veterinario int NOT NULL,
 
